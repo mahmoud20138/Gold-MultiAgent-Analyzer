@@ -1,0 +1,79 @@
+{
+  "correlated_instruments": {
+    "XAUUSD": {
+      "type": "target", "expected_corr": 1.0, "description": "Gold",
+      "aliases": ["XAUUSD"]
+    },
+    "XAGUSD": {
+      "type": "positive", "expected_corr": 0.90, "description": "Silver",
+      "aliases": ["XAGUSD"]
+    },
+    "EURUSD": {
+      "type": "positive", "expected_corr": 0.80, "description": "Euro/Dollar",
+      "aliases": ["EURUSD"]
+    },
+    "GBPUSD": {
+      "type": "positive", "expected_corr": 0.60, "description": "Pound/Dollar",
+      "aliases": ["GBPUSD"]
+    },
+    "AUDUSD": {
+      "type": "positive", "expected_corr": 0.50, "description": "Aussie/Dollar",
+      "aliases": ["AUDUSD"]
+    },
+    "USDJPY": {
+      "type": "inverse", "expected_corr": -0.45, "description": "Dollar/Yen",
+      "aliases": ["USDJPY"]
+    },
+    "USDCHF": {
+      "type": "inverse", "expected_corr": -0.55, "description": "Dollar/Swiss",
+      "aliases": ["USDCHF"]
+    },
+    "USDCAD": {
+      "type": "inverse", "expected_corr": -0.40, "description": "Dollar/Loonie",
+      "aliases": ["USDCAD"]
+    },
+    "USOIL": {
+      "type": "complex", "expected_corr": 0.35, "description": "WTI Crude",
+      "aliases": ["USOIL", "WTI", "WTIOIL", "USOUSD", "WTIUSD", "OILUSm", "CL"]
+    },
+    "UKOIL": {
+      "type": "complex", "expected_corr": 0.35, "description": "Brent Crude",
+      "aliases": ["UKOIL", "BRENT", "BRTUSD", "UKOUSD", "OILUKm"]
+    },
+    "XPTUSD": {
+      "type": "positive", "expected_corr": 0.75, "description": "Platinum",
+      "aliases": ["XPTUSD", "PLATINUM"]
+    },
+    "COPPER": {
+      "type": "complex", "expected_corr": 0.40, "description": "Copper",
+      "aliases": ["XCUUSD", "COPPER", "HGUSD", "CopperUSD", "XCOPPER"]
+    },
+    "BTCUSD": {
+      "type": "complex", "expected_corr": 0.20, "description": "Bitcoin",
+      "aliases": ["BTCUSD", "BITCOIN", "BTC", "XBTUSD"]
+    },
+    "US500": {
+      "type": "inverse", "expected_corr": -0.30, "description": "S&P 500",
+      "aliases": ["US500", "SP500", "USA500", "SPX500"]
+    },
+    "US30": {
+      "type": "inverse", "expected_corr": -0.25, "description": "Dow Jones",
+      "aliases": ["US30", "DJ30", "DOW30", "USA30", "WS30"]
+    },
+    "US100": {
+      "type": "inverse", "expected_corr": -0.20, "description": "Nasdaq 100",
+      "aliases": ["USTEC_x100", "US100", "NAS100", "NASDAQ100", "USA100", "NDX100", "USTEC"]
+    }
+  },
+  "dxy_weights": {
+    "EURUSD": -0.576,
+    "USDJPY": 0.136,
+    "GBPUSD": -0.119,
+    "USDCAD": 0.091,
+    "USDCHF": 0.036
+  },
+  "safe_haven_assets": ["XAUUSD", "XAGUSD", "USDJPY", "USDCHF"],
+  "risk_assets": ["US500", "US100", "BTCUSD", "AUDUSD"],
+  "correlation_windows": [20, 50, 100],
+  "divergence_threshold": 0.4
+}

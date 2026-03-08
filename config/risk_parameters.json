@@ -1,0 +1,20 @@
+{
+  "max_risk_per_trade_pct": 2.0,
+  "max_total_risk_pct": 6.0,
+  "max_open_trades": 5,
+  "min_risk_reward_ratio": 1.5,
+  "default_risk_pct": 1.5,
+  "gold_specific": {
+    "pip_value_per_001_lot": 1.0,
+    "typical_spread_usd": 0.25,
+    "max_spread_pct_of_atr": 0.15,
+    "stop_loss_atr_multiplier": 1.5,
+    "take_profit_atr_multiplier": 3.0
+  },
+  "event_blackout_hours": {
+    "NFP": 4,
+    "CPI": 3,
+    "FOMC": 4,
+    "GDP": 2
+  }
+}

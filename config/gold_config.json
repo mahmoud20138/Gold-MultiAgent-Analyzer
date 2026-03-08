@@ -1,0 +1,19 @@
+{
+  "primary_symbol": "XAUUSDm",
+  "alternate_symbols": ["XAUUSD", "GOLD"],
+  "timeframes": ["M15", "H1", "H4", "D1"],
+  "default_candles": {
+    "M15": 200,
+    "H1": 500,
+    "H4": 300,
+    "D1": 200
+  },
+  "session_utc_hours": {
+    "sydney": [21, 6],
+    "tokyo": [0, 9],
+    "london": [7, 16],
+    "new_york": [12, 21]
+  },
+  "round_number_levels": [2500, 2550, 2600, 2650, 2700, 2750, 2800, 2850, 2900, 2950, 3000],
+  "psychological_levels_step": 50
+}
